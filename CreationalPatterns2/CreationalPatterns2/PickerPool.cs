@@ -24,10 +24,10 @@ namespace CreationalPatterns2
             {
                 if (_available.Count != 0)
                 {
-                    AutomatedPicker picker = _available[0];
-                    _inUse.Add(picker);
+                    //AutomatedPicker picker = _available[0];
+                    _inUse.Add(_available[0]);
                     _available.RemoveAt(0);
-                    return picker;
+                    return _inUse[_inUse.Count-1];
                 }
                 else
                 {
