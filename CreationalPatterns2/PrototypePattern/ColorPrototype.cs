@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace PrototypePattern
 {
-    class Program
+    abstract class ColorPrototype
     {
-        static void Main(string[] args)
-        {
-        }
+        public abstract ColorPrototype Clone();
     }
 }
