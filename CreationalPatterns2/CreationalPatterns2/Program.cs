@@ -10,6 +10,7 @@ namespace CreationalPatterns2
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
